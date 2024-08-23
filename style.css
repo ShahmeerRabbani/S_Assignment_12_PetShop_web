@@ -1,0 +1,90 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100vh;
+    width: 100vw;
+    font-family: Poppins;
+    overflow-x: hidden;
+}
+
+nav{
+    height: 100px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid #f5f5f5;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+}
+.logo{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+ul{
+    list-style: none;
+    & li{
+        cursor: pointer;
+    }
+}
+
+.cart-button{
+    all: unset;
+    padding: 10px 20px;
+    border-radius: 10px;
+    border: 1px solid #7C58D3;
+    background-color: white;
+    font-weight: 700;
+    & i{
+        color: #7C58D3;
+        font-size: 20px;
+    }
+}
+
+.banner_01{
+    background-image: url('./image/shape_bg_1.png');
+    background-position: center top;
+    background-repeat: no-repeat;
+    padding: 130px 0 296px;
+    background-size: 100% 100%;
+    position: relative;
+}
+
+.banner-content{
+    max-width: 858px;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.banner-title{
+    font-size: 68px;
+    line-height: 71px;
+    color: #0E081E;
+    font-weight: bold;
+}
+
+.banner-desc{
+    font-size: 18px;
+    padding: 0 50px;
+}
+
+.banner_shap_01{
+    position: absolute;
+    background-image: url(./image/shapes_overlay_1.svg);
+    width: 100%;
+    height: 100%;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: auto;
+    z-index: 11;
+}
+
+.circle_shap{
+    position: absolute;
+    right: -120px;
+    top: 300px;
+}
